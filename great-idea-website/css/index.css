@@ -72,9 +72,87 @@ header nav{
 	display: inline-block;
 	margin-top: 35px;
 }
+
 header nav a{
 	margin: 0 20px;
+	text-decoration: none;
+	color: #D3D3D3;
 }
 header img.logo{
 	margin-left: 140px;
+	margin-top: -15px;
+}
+.intro{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid black;
+}
+.title{
+	margin-top: 80px;
+	width: 50%;
+	padding-left: 10%;
+	
+}
+.headerImage{
+	width: 35%;
+	margin: -280px 0 0 60%;
+}
+.title h1{
+	/* padding-left: -60px; */
+	font-size: 50px;
+	text-align: center;
+}
+.title p{
+	/* padding-left: -60px; */
+	border: 1px solid black;
+	padding: 12px 20px 12px 20px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	width: fit-content;
+	position: absolute;
+	left: 25%;
+}
+.content, .bottom{
+	margin-top: 60px;
+}
+.top, .bottom{
+
+	padding-bottom: 60px;
+}
+.features, .about{
+	width: 48%;
+}
+.about{
+	margin-left: 50%;
+	margin-top: -95px;
+}
+.services, .product, .vision{
+	width: 32%;
+}
+.product{
+	margin-left: 33%;
+	margin-top: -125px;
+}
+.vision{
+	margin-left: 66%;
+	margin-top: -125px;
+}
+.content, .service, .products{
+	
+	border-bottom: 1px solid black;
+}
+.contact{
+	padding-top: 50px;
+}
+.spacing1{
+	margin-top:20px;
+}
+.spacing{
+	margin-top:8px;
+	padding-bottom: 30px;
+}
+.footer{
+	text-align: center;
+	padding-bottom: 20px;
 }
